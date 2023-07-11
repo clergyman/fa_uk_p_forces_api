@@ -1,0 +1,33 @@
+{
+   "description":null,
+   "url":"http:\/\/www.avonandsomerset.police.uk",
+   "engagement_methods":[
+      {
+         "url":"https:\/\/www.facebook.com\/avonandsomersetpolice\/",
+         "type":"facebook",
+         "description":null,
+         "title":"facebook"
+      },
+      {
+         "url":"http:\/\/twitter.com\/aspolice",
+         "type":"twitter",
+         "description":null,
+         "title":"twitter"
+      },
+      {
+         "url":"http:\/\/www.flickr.com\/photos\/aspolice",
+         "type":"flickr",
+         "description":null,
+         "title":"flickr"
+      },
+      {
+         "url":"http:\/\/www.youtube.com\/user\/ASPolice",
+         "type":"youtube",
+         "description":null,
+         "title":"youtube"
+      }
+   ],
+   "telephone":"101",
+   "id":"avon-and-somerset",
+   "name":"Avon and Somerset Constabulary"
+}

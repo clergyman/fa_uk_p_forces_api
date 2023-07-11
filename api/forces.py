@@ -1,18 +1,20 @@
 import requests
+from api import config
 
 __endpoint__ = "forces"
+
+
 def get_all_forces():
-    print("CALL for FORCES")
-    x = requests.get('https://data.police.uk/api/'+__endpoint__)
-    print(x.status_code)
-    print(x.json())
+    url = "/".join([config.__base_url__, __endpoint__])
+    x = requests.get(url)
+    return x.json()
 
 
 def get_force_by_id(force_id):
-    print("CALL for one FORCE")
-    x = requests.get('https://data.police.uk/api/'+__endpoint__+"/"+force_id)
-    print(x.status_code)
-    print(x.json())
+    url = "/".join([config.__base_url__, __endpoint__, force_id])
+    x = requests.get(url)
+    return x.json()
+
 
 def open_force_site(url):
     print("CALL for one force SITE")
@@ -32,4 +34,3 @@ def open_force_site(url):
     x = requests.get(url, headers)
     print(x.status_code)
     print(x.json())
-
