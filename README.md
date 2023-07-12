@@ -5,7 +5,7 @@ API reference: https://data.police.uk/docs/
  Pytest-7.1.2
 
 Installation:
-> pip install dependencies.txt
+> pip install -r dependencies.txt
 
 Run all tests on mock data:
 > pytest --data-source mock
